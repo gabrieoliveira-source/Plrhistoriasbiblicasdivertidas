@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PLR Histórias Bíblicas Divertidas | Seja dono do seu produto cristão digital</title>
-<meta name="description" content="Licença de revenda do kit Histórias Bíblicas Divertidas: produto cristão pronto, validado, com página de vendas e bônus inclusos. Fique com 100% do lucro.">
+<meta name="description" content="Licença de revenda do kit Histórias Bíblicas Divertidas: produto cristão pronto, validado, com duas páginas de vendas e bônus inclusos. Fique com 100% do lucro.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
@@ -726,6 +726,12 @@ src="https://www.facebook.com/tr?id=1328872556081215&ev=PageView&noscript=1"
   .offer-card-list{list-style:none;padding:0;margin:0;display:grid;gap:10px;}
   .offer-card-list li{font-size:13.5px;line-height:1.35;font-weight:800;}
   .offer-card-list li::before{content:"★ ";color:#FFB629;}
+  .bonus-extra-stack{padding-top:48px;background:linear-gradient(180deg,#fff 0%,#F1F8FF 100%);}
+  .bonus-extra-grid{grid-template-columns:repeat(2,1fr);max-width:760px;margin:0 auto;}
+  @media(max-width:760px){.bonus-extra-grid{grid-template-columns:1fr;}}
+  .bonus-extra-grid .offer-card{min-height:720px;}
+  .bonus-extra-grid .offer-card-media{min-height:300px;padding:18px 18px 6px;}
+  .bonus-extra-grid .offer-card-media img{max-height:300px;border-radius:14px;}
   .certificate-art{
     width:82%;aspect-ratio:1.35;border:10px solid #D4A72C;background:#FFF7DE;
     color:#4E3515;display:flex;flex-direction:column;align-items:center;justify-content:center;
@@ -739,6 +745,30 @@ src="https://www.facebook.com/tr?id=1328872556081215&ev=PageView&noscript=1"
   }
   .certificate-art span:first-child{font-size:24px;font-weight:700;letter-spacing:.5px;}
   .certificate-art span:last-child{font-size:18px;font-weight:700;margin-top:12px;}
+
+  .purpose-selling{
+    padding:48px 0 56px;
+    background:linear-gradient(180deg,#075995 0%,#002B4D 58%,#020910 100%);
+    color:#fff;
+    text-align:center;
+    border-top:8px solid #0C87D8;
+  }
+  .purpose-selling h2{
+    font-size:clamp(28px,5vw,42px);
+    line-height:1.08;
+    font-weight:900;
+    max-width:720px;
+    margin:0 auto 20px;
+  }
+  .purpose-selling p{
+    max-width:900px;
+    margin:0 auto 12px;
+    font-size:clamp(15px,2.4vw,18px);
+    line-height:1.35;
+    color:#fff;
+  }
+  .purpose-selling strong{font-weight:900;}
+
 
   .proof-gallery{padding:54px 0;background:#fff;text-align:center;}
   .proof-gallery h2{font-size:clamp(22px,4.4vw,34px);font-weight:800;margin-bottom:10px;color:var(--ink);}
@@ -1039,14 +1069,6 @@ src="https://www.facebook.com/tr?id=1328872556081215&ev=PageView&noscript=1"
   </div>
 </section>
 
-<!-- ===== NEGÓCIO COM PROPÓSITO ===== -->
-<section class="pain" style="background:var(--paper);">
-  <div class="wrap reveal">
-    <h2>É mais que um produto: é um negócio com propósito</h2>
-    <p>Cada história foi pensada pra ensinar valores cristãos e passagens da Bíblia, ajudando a desenvolver leitura, compreensão e fé desde a infância. Em 24 horas, você pode ter o seu produto digital cristão no ar, pronto pra vender, mesmo sem experiência.</p>
-  </div>
-</section>
-
 <!-- ===== O QUE VOCÊ RECEBE ===== -->
 <section class="offer-stack">
   <div class="wrap">
@@ -1059,11 +1081,11 @@ src="https://www.facebook.com/tr?id=1328872556081215&ev=PageView&noscript=1"
         </div>
         <div class="offer-card-body">
           <h3 class="offer-card-kicker">Com o Histórias Bíblicas Divertidas você recebe:</h3>
-          <h4 class="offer-card-title">Página de vendas pronta para converter vendas</h4>
-          <p>Você receberá uma <strong>página de vendas pronta e validada</strong>, criada com foco em conversão, ideal para quem quer <strong>começar a vender sem complicações técnicas</strong>, sem precisar contratar domínio nem hospedagem.</p>
+          <h4 class="offer-card-title">Duas páginas de vendas prontas para converter vendas</h4>
+          <p>Você recebe <strong>duas páginas de vendas validadas</strong>, criadas com foco em conversão, ideais para quem quer <strong>começar a vender sem complicações técnicas</strong>, sem precisar contratar domínio nem hospedagem.</p>
           <ul class="offer-card-list">
-            <li>Basta divulgar e deixar a estrutura trabalhar por você.</li>
-            <li>Uma vitrine profissional funcionando 24 horas por dia.</li>
+            <li>Duas estruturas prontas, é só escolher qual usar ou testar as duas.</li>
+            <li>Basta divulgar e deixar a página trabalhar por você.</li>
             <li>Sem mensalidade de site, sem domínio e sem hospedagem.</li>
             <li>Checkout pronto para levar o cliente direto para a compra.</li>
           </ul>
@@ -1116,6 +1138,7 @@ src="https://www.facebook.com/tr?id=1328872556081215&ev=PageView&noscript=1"
             <li>Como criar anúncios que funcionam do absoluto zero.</li>
             <li>Técnicas avançadas para escalar suas vendas no Facebook e Instagram.</li>
             <li>O passo a passo para transformar pequenos investimentos em grandes lucros.</li>
+            <li>Como vender esse produto todos os dias, com o passo a passo aplicado direto ao Histórias Bíblicas Divertidas.</li>
           </ul>
           <p>Ideal para quem quer dominar o tráfego pago e vender com <strong>inteligência, estratégia e consistência</strong>.</p>
         </div>
@@ -1127,11 +1150,13 @@ src="https://www.facebook.com/tr?id=1328872556081215&ev=PageView&noscript=1"
         </div>
         <div class="offer-card-body">
           <h4 class="offer-card-title">Bônus especial: criativos e copys que vendem</h4>
-          <p>Chega de quebrar a cabeça para divulgar. Com este bônus, você recebe um <strong>pacote completo com criativos e copys validadas</strong>, testadas e prontas para gerar vendas.</p>
+          <p>Chega de quebrar a cabeça para divulgar. Com este bônus, você recebe um <strong>pacote completo com criativos e copys validados</strong>, em formato vídeo e imagem, testados e prontos para gerar vendas.</p>
           <ul class="offer-card-list">
             <li>Imagens atrativas e profissionais para Instagram e Facebook.</li>
+            <li>Vídeos prontos, no mesmo formato que já vendeu, para você só adaptar e publicar.</li>
             <li>Textos persuasivos e aprovados no Meta Ads, prontos para anunciar.</li>
             <li>Modelos prontos de posts, stories e mensagens para divulgar em minutos.</li>
+            <li>Aprenda a modelar novos anúncios com IA, criando variações próprias a partir dos criativos validados.</li>
           </ul>
           <p><strong>Economize tempo, evite bloqueios e comece a vender de forma inteligente.</strong> É só copiar, colar e lucrar.</p>
         </div>
@@ -1139,17 +1164,73 @@ src="https://www.facebook.com/tr?id=1328872556081215&ev=PageView&noscript=1"
 
       <article class="offer-card reveal reveal-delay-2">
         <div class="offer-card-media">
-          <img src="https://historiasdeluz.me/wp-content/uploads/2026/06/COLORINDO-COM-PROPOSITO-HISTORIAS-DE-LUZ-1.jpg" alt="Turbinar Instagram" loading="lazy">
+          <img src="https://historiasdeluz.me/wp-content/uploads/2026/06/COLORINDO-COM-PROPOSITO-HISTORIAS-DE-LUZ-1.jpg" alt="Venda todos os dias pelo WhatsApp" loading="lazy">
         </div>
         <div class="offer-card-body">
-          <h4 class="offer-card-title">Bônus especial: turbine suas vendas pelo Instagram</h4>
-          <p>Venda mais gastando menos. Aprenda a <strong>impulsionar suas publicações diretamente pelo Instagram</strong>, de forma simples, rápida e sem precisar do Gerenciador de Anúncios.</p>
+          <h4 class="offer-card-title">Bônus especial: venda todos os dias pelo WhatsApp</h4>
+          <p>Você recebe <strong>fluxos de mensagens passo a passo já validados</strong>, prontos para você usar no WhatsApp e vender também no um a um, sem depender só do anúncio.</p>
           <ul class="offer-card-list">
-            <li>Nada de Gerenciador de Anúncios complicado.</li>
-            <li>Aqui é prático, direto e focado em resultado.</li>
-            <li>Perfeito para iniciantes que querem anunciar de forma fácil.</li>
+            <li>Sequências prontas para conduzir a conversa do primeiro contato até o fechamento.</li>
+            <li>Respostas certas para as objeções mais comuns do produto.</li>
+            <li>Um passo a passo simples, que dá para aplicar mesmo sem experiência em vendas.</li>
           </ul>
           <p><strong>Sem complicações técnicas, com foco total em conversão.</strong></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NEGÓCIO COM PROPÓSITO ===== -->
+<section class="purpose-selling">
+  <div class="wrap reveal">
+    <h2>Imagine vender com propósito, no conforto da sua casa</h2>
+    <p>Imagine poder <strong>trabalhar de casa</strong>, no seu tempo, com um produto que <strong>edifica vidas</strong> e ainda permite que você seja <strong>100% recompensado por cada venda realizada</strong>.</p>
+    <p>Com o <strong>PLR Histórias Bíblicas Divertidas</strong>, você une fé, propósito e liberdade financeira.</p>
+    <p><strong>O lucro é todo seu.</strong> Quanto mais você vende, mais você ganha, sem limite de comissão.</p>
+  </div>
+</section>
+
+<!-- ===== BÔNUS EXTRAS ===== -->
+<section class="offer-stack bonus-extra-stack">
+  <div class="wrap">
+    <h2 class="reveal">Bônus extras para acelerar suas vendas</h2>
+    <p class="sub reveal">Mais materiais prontos para você vender, divulgar e aumentar o valor percebido da sua oferta.</p>
+    <div class="offer-card-grid bonus-extra-grid">
+      <article class="offer-card reveal">
+        <div class="offer-card-media">
+          <img src="file:///C:/Users/User/Documents/Codex/2026-07-16/col/outputs/assets/bonus-pacote-plr.png" alt="Pacote completo PLR Histórias Bíblicas Divertidas" loading="lazy">
+        </div>
+        <div class="offer-card-body">
+          <h4 class="offer-card-title">Bônus extra: Devocionais Histórias Bíblicas Divertidas</h4>
+          <p>Além do produto principal, você recebe um <strong>PLR cristão complementar</strong> com devocionais prontos para vender, adaptar ou entregar como presente estratégico para seus clientes.</p>
+          <ul class="offer-card-list">
+            <li>Devocionais prontos para fortalecer a fé de crianças, casais e famílias.</li>
+            <li>Página de vendas já estruturada para apresentar a oferta com clareza.</li>
+            <li>Criativos e textos de divulgação para acelerar sua primeira campanha.</li>
+            <li>Conteúdo com linguagem simples, acolhedora e persuasiva.</li>
+            <li>Copys prontas para posts, mensagens e anúncios.</li>
+          </ul>
+          <p><strong>Use como bônus, produto separado ou oferta adicional</strong> para aumentar o valor percebido do seu negócio digital cristão.</p>
+        </div>
+      </article>
+
+      <article class="offer-card reveal reveal-delay-1">
+        <div class="offer-card-media">
+          <img src="file:///C:/Users/User/Documents/Codex/2026-07-16/col/outputs/assets/bonus-ia-criativa.png" alt="IA Criativa Histórias Bíblicas Divertidas" loading="lazy">
+        </div>
+        <div class="offer-card-body">
+          <h4 class="offer-card-title">Bônus extra: IA Criativa Histórias Bíblicas Divertidas - seu assistente 24h</h4>
+          <p>Tenha uma ajuda guiada para criar materiais de venda mesmo começando do zero. A IA Criativa foi pensada para quem quer <strong>publicar mais rápido, testar ideias e vender com mais confiança</strong>.</p>
+          <ul class="offer-card-list">
+            <li>Comandos para gerar imagens, criativos e ideias de anúncios em poucos minutos.</li>
+            <li>Frases, textos e copys adaptáveis para atrair o público cristão infantil.</li>
+            <li>Modelos de artes no estilo cristão infantil, alinhados ao padrão premium.</li>
+            <li>Estruturas de páginas de vendas para montar ofertas do zero.</li>
+            <li>Respostas para WhatsApp que ajudam a quebrar objeções e destravar vendas.</li>
+            <li>Ideias de anúncios e conteúdos para continuar divulgando todos os dias.</li>
+          </ul>
+          <p>Enquanto você foca no que importa, <strong>a IA encurta o caminho para criar, divulgar e vender com propósito</strong>.</p>
         </div>
       </article>
     </div>
@@ -1241,6 +1322,7 @@ src="https://www.facebook.com/tr?id=1328872556081215&ev=PageView&noscript=1"
       <div class="tag">PLR Histórias Bíblicas Divertidas: <span style="font-weight:500;">acesso completo</span></div>
 
       <p class="today">Hoje, por um valor simbólico...</p>
+      <p style="font-size:clamp(14px,2.6vw,18px);font-weight:800;color:var(--ink);margin:0 0 4px;">De <span style="color:var(--red-price);text-decoration:line-through;">R$687,00</span> por</p>
       <p class="price">R$29,90</p>
       <p style="font-size:13px;color:#666;font-weight:600;margin:-10px 0 18px;">À vista ou em até 7x no cartão</p>
 
@@ -1260,10 +1342,11 @@ src="https://www.facebook.com/tr?id=1328872556081215&ev=PageView&noscript=1"
           <li><span class="ok">●</span><span>Banco de Imagens</span></li>
           <li><span class="ok">●</span><span>Artes para área de membros</span></li>
           <li><span class="ok">●</span><span>Atividades de Colorir</span></li>
-          <li><span class="gem">◈</span><span>BÔNUS EXCLUSIVO: Página de vendas</span></li>
-          <li><span class="gem">◈</span><span>BÔNUS EXCLUSIVO: Criativos e Copys</span></li>
+          <li><span class="gem">◈</span><span>BÔNUS EXCLUSIVO: Duas páginas de vendas</span></li>
+          <li><span class="gem">◈</span><span>BÔNUS EXCLUSIVO: Criativos e Copys (vídeo e imagem)</span></li>
           <li><span class="gem">◈</span><span>BÔNUS EXCLUSIVO: Estratégias de Vendas</span></li>
           <li><span class="gem">◈</span><span>BÔNUS EXCLUSIVO: Tráfego para Infoprodutos</span></li>
+          <li><span class="gem">◈</span><span>BÔNUS EXCLUSIVO: Venda todos os dias pelo WhatsApp</span></li>
           <li><span class="gem">◈</span><span>BÔNUS EXCLUSIVO: Comunidade de Suporte</span></li>
           <li><span class="gem">◈</span><span>BÔNUS EXTRA: PLR Devocionais - Histórias Bíblicas Divertidas</span></li>
           <li><span class="gem">◈</span><span>BÔNUS EXTRA: Primeiros passos para vender produtos digitais</span></li>
@@ -1271,7 +1354,7 @@ src="https://www.facebook.com/tr?id=1328872556081215&ev=PageView&noscript=1"
           <li><span class="gem">◈</span><span>BÔNUS EXTRA: Vídeo aulas + material didático extra</span></li>
           <li><span class="gem">◈</span><span>Comunidade de alunos: conteúdo gratuito toda semana</span></li>
           <li><span class="gem">◈</span><span>BÔNUS EXTRA: IA Criativa Histórias Bíblicas Divertidas - seu assistente 24h</span></li>
-          <li><span class="gem">◈</span><span>BÔNUS EXTRA: O próximo nível vendas em dólar curso completo</span></li>
+          <li><span class="gem">◈</span><span>BÔNUS EXTRA: Aprenda a gerar novos produtos, copys, anúncios e páginas com IA</span></li>
           <li><span class="wa">◉</span><span>Suporte via WhatsApp - 7 dias por semana</span></li>
         </ul>
       </div>
